@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000e14;
+}
+
+.hero-img {
+  display: block;
+  height: 8em;
+  margin: auto;
+  margin-top: 3em;
+}
+
+header {
+  padding-top: 3em;
+  padding-bottom: 20em;
+  text-align: center;
+  background-image: linear-gradient(62deg, #000e14 0%, #001929 100%);
+}
+
+header h1 {
+  margin-bottom: -1em;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: 'Rubik', sans-serif;
+  text-shadow: 0 0 3px #fff;
+}
+
+.cta {
+  margin: 4em;
+}
+
+.cta1 {
+  background-color: #FF0000;
+  text-decoration: none;
+  color: white;
+  margin-right: .3em;
+  padding: .5em;
+  font-family: 'Rubik', sans-serif;
+  border-radius: .3em;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: 0 0 10px #FF0000;
+          box-shadow: 0 0 10px #FF0000;
+}
+
+.cta1:hover {
+  background: #db0000;
+  border-radius: .5em;
+}
+
+.cta2 {
+  background-color: #D60057;
+  text-decoration: none;
+  color: white;
+  margin-right: .3em;
+  padding: .5em;
+  font-family: 'Rubik', sans-serif;
+  border-radius: .3em;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: 0 0 10px #D60057;
+          box-shadow: 0 0 10px #D60057;
+}
+
+.cta2:hover {
+  background: #ad0046;
+  border-radius: .5em;
+}
+
+.cta3 {
+  display: inline-block;
+  background-color: #222222;
+  text-decoration: none;
+  margin-top: 1em;
+  color: white;
+  margin-right: .3em;
+  padding: .5em;
+  font-family: 'Rubik', sans-serif;
+  border-radius: .3em;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: 0 0 10px #222222;
+          box-shadow: 0 0 10px #222222;
+}
+
+.cta3:hover {
+  background: #171717;
+  border-radius: .5em;
+}
+
+.cta4 {
+  background-color: #5865F2;
+  text-decoration: none;
+  margin-top: 1em;
+  color: white;
+  margin-right: .3em;
+  padding: .5em;
+  font-family: 'Rubik', sans-serif;
+  border-radius: .3em;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: 0 0 10px #5865F2;
+          box-shadow: 0 0 10px #5865F2;
+}
+
+.cta4:hover {
+  background: #404dd6;
+  border-radius: .5em;
+}
+
+.footer {
+  padding: 1.5em;
+  background-color: #000508;
+}
+
+.footer-text-main {
+  color: #525252;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.footer-odkazy {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  font-size: .7em;
+  text-transform: uppercase;
+}
+
+.footer-odkazy li {
+  display: inline-block;
+}
+
+.footer-odkazy-text {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: underline;
+  color: #333333;
+  display: inline-block;
+}
+
+@media screen and (min-width: 480px) {
+  header {
+    padding-bottom: 32em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding-bottom: 53em;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .cta {
+    margin-top: -.5em;
+  }
+  .hero-img {
+    height: 10em;
+  }
+  header {
+    padding-bottom: 23em;
+  }
+  header h1 {
+    display: inline-block;
+    margin: 0em;
+    font-size: 4em;
+    text-shadow: 0 0 3px gray;
+  }
+  .cta1 {
+    margin-right: .5em;
+    font-size: 1.3em;
+    padding: .9em;
+    border-radius: .5em;
+  }
+  .cta2 {
+    margin-right: .5em;
+    font-size: 1.3em;
+    padding: .9em;
+    border-radius: .5em;
+  }
+  .cta3 {
+    margin-right: .5em;
+    font-size: 1.3em;
+    padding: .9em;
+    border-radius: .5em;
+  }
+  .cta4 {
+    margin-right: .5em;
+    font-size: 1.3em;
+    padding: .9em;
+    border-radius: .5em;
+  }
+}
+/*# sourceMappingURL=css.css.map */
